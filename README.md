@@ -1,4 +1,4 @@
-```markdown
+![EDIT_20260202_203615](https://github.com/noodultra/LimeMod/blob/main/logo.png)
 
 ## 📖 关于模组
 
