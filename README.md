@@ -1,11 +1,4 @@
 ```markdown
-# Lime Mod
-
-![Mod Loader: Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-blue)
-![Languages: Java & Kotlin](https://img.shields.io/badge/Languages-Java%20%7C%20Kotlin-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-![Code Style: Google](https://img.shields.io/badge/Code%20Style-Google-brightgreen)
-
 ## 关于模组
 
 这是一个为 Minecraft Java版开发的食物扩展模组。为游戏添加了多种全新的食材、料理和烹饪相关机制。
@@ -57,4 +50,3 @@ cd limemod
 
 MIT
 
-```
