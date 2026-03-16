@@ -16,7 +16,8 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.limeing.limemod.Limemod"
+			"xyz.limeing.limemod.LimemodJava",
+			"xyz.limeing.limemod.Limemod"       // Kt
 		],
 		"client": [
 			"xyz.limeing.limemod.LimemodClient"
@@ -36,7 +37,8 @@
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.10.0+kotlin.1.9.0"  // Kt 1.9.0v
 	},
 	"suggests": {
 		"another-mod": "*"
