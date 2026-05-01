@@ -3,9 +3,9 @@
 	"id": "limemod",
 	"version": "${version}",
 	"name": "limemod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "这个模组添加了和青柠相关的物品",
 	"authors": [
-		"Me!"
+		"面缶"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,14 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.limeing.limemod.LimemodJava",
-			"xyz.limeing.limemod.Limemod"       // Kt
+			"top.limex.limemod.Limemod"
 		],
 		"client": [
-			"xyz.limeing.limemod.LimemodClient"
+			"top.limex.limemod.LimemodClient"
 		],
 		"fabric-datagen": [
-			"xyz.limeing.limemod.LimemodDataGenerator"
+			"top.limex.limemod.LimemodDataGenerator"
 		]
 	},
 	"mixins": [
@@ -34,11 +33,10 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.10.0+kotlin.1.9.0"  // Kt 1.9.0v
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
