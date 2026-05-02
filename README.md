@@ -29,5 +29,3 @@
 - Java：Google Java 风格指南（4空格缩进，Javadoc注释）
 - 命名：注册类字段使用 UPPER_SNAKE_CASE
 - 包结构：按功能分包（item、block、recipe、effect、util）
-
-./gradlew check
