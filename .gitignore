@@ -1,40 +1,47 @@
-# gradle
+# Gradle
+.gradle
 
-.gradle/
-build/
-out/
-classes/
+# VSCode
+.settings/
+.vscode/
 
-# eclipse
-
+# Eclipse
+.checkstyle
+.classpath
+.metadata
+.settings
+.project
 *.launch
 
-# idea
-
-.idea/
+# Intellij/Idea
+.factorypath
+.idea
 *.iml
 *.ipr
 *.iws
 
-# vscode
-
-.settings/
-.vscode/
+# Build artifacts
 bin/
-.classpath
-.project
+build/
+jars/
+out/
+classes/
 
-# macos
+# Generated sources
+# The trailing * is important, otherwise Git wouldn't evaluate the directories at all and we wouldn't be able to un-ignore some of them.
+**/src/generated/*
 
-*.DS_Store
+# Debug artifacts
+run
+*.log
+*.log.gz
+focus.txt
 
-# fabric
+# Windows
+*.db
+$RECYCLE.BIN/
 
-run/
+# Mac
+.DS_Store
 
-# java
-
-hs_err_*.log
-replay_*.log
-*.hprof
-*.jfr
+!/buildSrc/src/**
