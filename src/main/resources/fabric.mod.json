@@ -1,0 +1,56 @@
+{
+	"schemaVersion": 1,
+	"id": "limemod",
+	"version": "${version}",
+	"name": "LimeMod",
+	"description": "This is a food mod for Minecraft Fabric.",
+	"authors": [
+		"noodawa"
+	],
+	"contact": {
+		"homepage": "https://docs.nood.icu",
+		"sources": "https://github.com/noodultra/LimeMod",
+		"issues": "https://github.com/noodultra/LimeMod/issues"
+	},
+	"license": "GNU Lesser General Public License version 2.1",
+	"icon": "assets/limemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"awa.limemod.LimeMod"
+		],
+		"client": [
+			"awa.limemod.LimeModClient"
+		],
+		"fabric-datagen": [
+			"awa.limemod.LimeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"limemod.mixins.json",
+		{
+			"config": "limemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/mod/limemod",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/limemod/preview",
+				"modmenu.discord": "https://discord.gg/limemod"
+			},
+			"badges": [],
+			"update_checker": true
+		}
+	}
+}
